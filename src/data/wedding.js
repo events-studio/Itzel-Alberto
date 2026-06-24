@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL
+
 export const wedding = {
   couple: {
     bride: 'Itzel',
@@ -6,7 +8,7 @@ export const wedding = {
     phrase: 'Dos almas, una historia, y toda una vida para celebrarla.',
   },
   hero: {
-    image: '/photos/novios-inicio.jpg',
+    image: BASE + 'photos/novios-inicio.jpg',
     kicker: 'Save the date',
     caption: 'Este día empieza con nosotros, pero se vuelve inolvidable con ustedes.',
   },
@@ -25,7 +27,7 @@ export const wedding = {
     place: 'Templo de la inmaculada concepción.',
     address: 'Laguna Larga, Irapuato, Gto.',
     mapUrl: 'https://maps.app.goo.gl/UprDWxuoQPZa5zmB8',
-    image: '/photos/parroquia.jpg',
+    image: BASE + 'photos/parroquia.jpg',
     photoLabel: 'Templo',
   },
   reception: {
@@ -34,7 +36,7 @@ export const wedding = {
     place: 'Salón tulipanes',
     address: 'Laguna Larga, Irapuato, Gto.',
     mapUrl: 'https://maps.app.goo.gl/fZig8CennTMQA4JF8',
-    image: '/photos/salon-recepcion.jpg',
+    image: BASE + 'photos/salon-recepcion.jpg',
     photoLabel: 'Recepción',
   },
   dressCode: {
@@ -56,14 +58,14 @@ export const wedding = {
     appsScriptUrl: import.meta.env.VITE_APPS_SCRIPT_UPLOAD_URL || '',
   },
   photos: [
-    '/photos/couple-1.jpg',
-    '/photos/couple-2.jpg',
-    '/photos/couple-3.jpg',
-    '/photos/couple-4.jpg',
-    '/photos/couple-5.jpg',
-    '/photos/couple-6.jpg',
-    '/photos/couple-7.jpg',
-    '/photos/couple-8.jpg',
+    BASE + 'photos/couple-1.jpg',
+    BASE + 'photos/couple-2.jpg',
+    BASE + 'photos/couple-3.jpg',
+    BASE + 'photos/couple-4.jpg',
+    BASE + 'photos/couple-5.jpg',
+    BASE + 'photos/couple-6.jpg',
+    BASE + 'photos/couple-7.jpg',
+    BASE + 'photos/couple-8.jpg',
   ],
   timeline: [
     {
