@@ -392,7 +392,7 @@ function CameraRig({ pointer }) {
 }
 
 function WeddingRings() {
-  const { scene } = useGLTF('/models/ring.glb')
+  const { scene } = useGLTF(import.meta.env.BASE_URL + "models/ring.glb")
   const group = useRef(null)
   const leftRing = useRef(null)
   const rightRing = useRef(null)
@@ -464,7 +464,7 @@ function WeddingRings() {
   )
 }
 
-useGLTF.preload('/models/ring.glb')
+useGLTF.preload(import.meta.env.BASE_URL + "models/ring.glb")
 
 function InfinityRibbon({ pointer }) {
   const ref = useRef(null)

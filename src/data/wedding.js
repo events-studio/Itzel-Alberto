@@ -11,7 +11,7 @@ export const wedding = {
     caption: 'Este día empieza con nosotros, pero se vuelve inolvidable con ustedes.',
   },
   music: {
-    src: '/audio/song.m4a',
+    src: import.meta.env.BASE_URL + "audio/song.m4a",
     note: 'Toca para ambientar la invitación',
   },
   date: {
