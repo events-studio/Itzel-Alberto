@@ -490,7 +490,7 @@ function InfinityRibbon({ pointer }) {
 }
 
 function PetalCloud({ progress, pointer }) {
-  const { scene } = useGLTF('/models/petalo.glb')
+  const { scene } = useGLTF(import.meta.env.BASE_URL + 'models/petalo.glb')
   const petalRefs = useRef([])
 
   const petals = useMemo(
@@ -548,7 +548,7 @@ function PetalCloud({ progress, pointer }) {
   )
 }
 
-useGLTF.preload('/models/petalo.glb')
+useGLTF.preload(import.meta.env.BASE_URL + 'models/petalo.glb')
 
 function FloatingLayers({ pointer }) {
   const one = useRef(null)

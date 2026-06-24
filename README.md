@@ -118,6 +118,6 @@ Esta versión mejora la experiencia en teléfono y añade:
 - Los anillos ya no están amarrados al scroll; se quedan estables con movimiento ambiental suave.
 - El scroll 3D ahora lo sienten principalmente los pétalos y las capas de contenido.
 - Mobile-first más natural: menos centrado, más aire lateral y bloques legibles.
-- Música configurada en `public/audio/cancion.mp3`.
+- Música configurada en `public/audio/song.mp3`.
 
 Edita nombres, rutas, textos y links en `src/data/wedding.js`.
